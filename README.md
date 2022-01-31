@@ -31,7 +31,7 @@ rhat_ob_arr = np.ones((3,3))*rhat_ob
 alpha = geo2helio(r_so_arr,rhat_ob_arr,d)
 
 #heliocentric vector magnitudes
-LA.norm(r_so + alpha*rhat_ob)
+LA.norm(r_so + alpha*rhat_ob,axis=1)
 
 >> array([2., 2., 2.])
 ```
