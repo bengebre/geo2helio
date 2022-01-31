@@ -1,5 +1,5 @@
 # geo2helio
-Scale a geocentric observer-body unit vector to achieve the asserted length heliocentric vector to that body.
+Scale a geocentric observer-body unit vector to achieve the asserted length heliocentric vector to that body.  More details available <a href="https://benengebreth.org/dynamic-sky/geocentric-to-heliocentric/">here</a>.
 
 #### Example usage
 
