@@ -4,6 +4,8 @@ Scale a geocentric observer-body unit vector to achieve the asserted length heli
 #### Example usage
 
 ```python
+from geo2helio import geo2helio
+
 #inputs
 r_so = np.array([1,0,0]) #sun->observer vector
 rhat_ob = [0.5,0.5,0]/LA.norm([0.5,0.5,0]) #observer->body unit vector
